@@ -256,7 +256,6 @@ C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\bin\es\EntityFramework
 C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
 C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
 C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
-C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\obj\Debug\pureba2register.csprojAssemblyReference.cache
 C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\obj\Debug\pureba2register.Migrations.agrego_columna_nacimiento.resources
 C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\obj\Debug\pureba2register.Migrations.AddRemaksField.resources
 C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\obj\Debug\pureba2register.csproj.GenerateResource.cache
@@ -264,3 +263,4 @@ C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\obj\Debug\pureba2regis
 C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\obj\Debug\pureba2register.csproj.CopyComplete
 C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\obj\Debug\pureba2register.dll
 C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\obj\Debug\pureba2register.pdb
+C:\Users\asus\source\repos\EGRESADOSLOGIN\pureba2register\obj\Debug\pureba2register.csprojAssemblyReference.cache

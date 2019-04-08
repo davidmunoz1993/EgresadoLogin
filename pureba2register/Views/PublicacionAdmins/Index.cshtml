@@ -1,0 +1,60 @@
+﻿@model IEnumerable<pureba2register.Models.PublicacionAdmin>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Publicación</h2>
+
+<p>
+    @Html.ActionLink("Crear nueva publicación", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaInicio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaFinalizacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Asunto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Informacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstadoPublicacion)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaInicio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaFinalizacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Asunto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Informacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstadoPublicacion)
+        </td>
+        <td>
+            <a class="colorBoton" href="/PublicacionAdmins/Edit/@item.PublicacionAdminID">Editar<samp class="glyphicon glyphicon-edit"> </samp></a>
+
+        <td> <a class="colorBoton" href="/PublicacionAdmins/Details/@item.PublicacionAdminID">Detalles<samp class="glyphicon glyphicon-exclamation-sign"> </samp></a></td>
+
+        <td> <a class="colorBoton" href="/PublicacionAdmins/Delete/@item.PublicacionAdminID">Eliminar<samp class="glyphicon glyphicon-trash"> </samp></a></td>
+
+        </td>
+    </tr>
+}
+
+</table>
