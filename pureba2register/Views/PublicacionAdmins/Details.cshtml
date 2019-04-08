@@ -1,0 +1,58 @@
+﻿@model pureba2register.Models.PublicacionAdmin
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaInicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaInicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaFinalizacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaFinalizacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Asunto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Asunto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Informacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Informacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstadoPublicacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstadoPublicacion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.PublicacionAdminID }) |
+    @Html.ActionLink("Atrás", "Index")
+</p>

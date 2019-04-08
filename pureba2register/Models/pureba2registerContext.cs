@@ -21,6 +21,7 @@ namespace pureba2register.Models
 
         public System.Data.Entity.DbSet<pureba2register.Models.Egresado> Egresadoes { get; set; }
 
+<<<<<<< HEAD
         public System.Data.Entity.DbSet<pureba2register.Models.AgregarOferta> AgregarOfertas { get; set; }
 
         public System.Data.Entity.DbSet<pureba2register.Models.ConsultarOferta> ConsultarOfertas { get; set; }
@@ -28,5 +29,12 @@ namespace pureba2register.Models
         public System.Data.Entity.DbSet<pureba2register.Models.CrearPerfilEmpresa> CrearPerfilEmpresas { get; set; }
 
         public System.Data.Entity.DbSet<pureba2register.Models.PerfilEmpresa> PerfilEmpresas { get; set; }
+=======
+        public System.Data.Entity.DbSet<pureba2register.Models.Administrador> Administradors { get; set; }
+
+        public System.Data.Entity.DbSet<pureba2register.Models.PublicacionesEnEspera> PublicacionesEnEsperas { get; set; }
+
+        public System.Data.Entity.DbSet<pureba2register.Models.PublicacionAdmin> PublicacionAdmins { get; set; }
+>>>>>>> 30da0560b41b0ca980d32937b25d1e52743955c6
     }
 }
