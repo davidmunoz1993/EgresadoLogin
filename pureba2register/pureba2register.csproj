@@ -187,9 +187,13 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AgregarOfertasController.cs" />
+    <Compile Include="Controllers\ConsultarOfertasController.cs" />
+    <Compile Include="Controllers\CrearPerfilEmpresasController.cs" />
     <Compile Include="Controllers\EgresadoesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PerfilEmpresasController.cs" />
     <Compile Include="Controllers\RoleController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
@@ -205,9 +209,13 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AgregarOferta.cs" />
+    <Compile Include="Models\ConsultarOferta.cs" />
     <Compile Include="Models\Egresado.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\CrearPerfilEmpresa.cs" />
+    <Compile Include="Models\PerfilEmpresa.cs" />
     <Compile Include="Models\pureba2registerContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -276,6 +284,26 @@
     <Content Include="Views\Egresadoes\Edit.cshtml" />
     <Content Include="Views\Egresadoes\Index.cshtml" />
     <Content Include="Views\Users\Index.cshtml" />
+    <Content Include="Views\AgregarOfertas\Create.cshtml" />
+    <Content Include="Views\AgregarOfertas\Delete.cshtml" />
+    <Content Include="Views\AgregarOfertas\Details.cshtml" />
+    <Content Include="Views\AgregarOfertas\Edit.cshtml" />
+    <Content Include="Views\AgregarOfertas\Index.cshtml" />
+    <Content Include="Views\ConsultarOfertas\Create.cshtml" />
+    <Content Include="Views\ConsultarOfertas\Delete.cshtml" />
+    <Content Include="Views\ConsultarOfertas\Details.cshtml" />
+    <Content Include="Views\ConsultarOfertas\Edit.cshtml" />
+    <Content Include="Views\ConsultarOfertas\Index.cshtml" />
+    <Content Include="Views\CrearPerfilEmpresas\Create.cshtml" />
+    <Content Include="Views\CrearPerfilEmpresas\Delete.cshtml" />
+    <Content Include="Views\CrearPerfilEmpresas\Details.cshtml" />
+    <Content Include="Views\CrearPerfilEmpresas\Edit.cshtml" />
+    <Content Include="Views\CrearPerfilEmpresas\Index.cshtml" />
+    <Content Include="Views\PerfilEmpresas\Create.cshtml" />
+    <Content Include="Views\PerfilEmpresas\Delete.cshtml" />
+    <Content Include="Views\PerfilEmpresas\Details.cshtml" />
+    <Content Include="Views\PerfilEmpresas\Edit.cshtml" />
+    <Content Include="Views\PerfilEmpresas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
